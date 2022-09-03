@@ -25,7 +25,7 @@ BIB:
 The code was tested with Ubuntu 20.04 and PyTorch 1.10
 
 ## Sample Result
-GT | z=0 | z=1 | z=2 | z=3
+GT | z=0 | Diff | z=1 | Diff | z=2 | Diff | z=3
 
 PropMNIST_4D:
 
@@ -35,7 +35,7 @@ PropMNIST_4D:
 ![](sample/MNIST_4D/File4.gif)
 ![](sample/MNIST_4D/File5.gif)
 
-GT | z=-1 | z=-0.8 | z=-0.6 | z=-0.4 | z=-0.2 | z=0 | z=0.2 | z=0.4 | z=0.6 | z=0.8 | z=1 
+GT | z=-1 | Diff | z=-0.8 | Diff | z=-0.6 | Diff | z=-0.4 | Diff | z=-0.2 | Diff | z=0 | Diff | z=0.2 | Diff | z=0.4 | Diff | z=0.6 | Diff | z=0.8 | Diff | z=1 
 
 PropMNIST_1C:
 
@@ -45,9 +45,9 @@ PropMNIST_1C:
 ![](sample/MNIST_1C/File4.gif)
 ![](sample/MNIST_1C/File5.gif)
 
-GT | z=-1 | z=-0.8 | z=-0.6 | z=-0.4 | z=-0.2 | z=0 | z=0.2 | z=0.4 | z=0.6 | z=0.8 | z=1 
+GT | z=-1 | Diff | z=-0.8 | Diff | z=-0.6 | Diff | z=-0.4 | Diff | z=-0.2 | Diff | z=0 | Diff | z=0.2 | Diff | z=0.4 | Diff | z=0.6 | Diff | z=0.8 | Diff | z=1 
 
-PropMNIST_1C:
+Skeleton_1C:
 
 ![](sample/Skeleton_1C/File1.gif)
 ![](sample/Skeleton_1C/File2.gif)
