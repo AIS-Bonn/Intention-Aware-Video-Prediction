@@ -65,4 +65,5 @@ PropMNIST_1C:
 ## Run
 
 ```
-python app.py --data_key=PropMMNIST --batch_size=500 --useGlobalLFT=True --res_x=64 --res_y=64 --inference=False --ArrowScale=2 --futureAwareMPFNetwrokTestTime=Same --futureAwareMPFDropout=0 --futureAwareMPFHistory_len=5 --futureAwareMPFChannelNumber=1 --futureAwareMPF=Network --sequence_length=6 --sequence_seed=3 --history_len=4 --digitCount=1 --futureAwareMPFContinuous=True --refine_output=True --M_transform_lr=0.007 --epochs=30 --refine_lr=0.0011```
+python app.py --data_key=PropMMNIST --batch_size=500 --useGlobalLFT=True --res_x=64 --res_y=64 --inference=False --ArrowScale=2 --futureAwareMPFNetwrokTestTime=Same --futureAwareMPFDropout=0 --futureAwareMPFHistory_len=5 --futureAwareMPFChannelNumber=1 --futureAwareMPF=Network --sequence_length=6 --sequence_seed=3 --history_len=4 --digitCount=1 --futureAwareMPFContinuous=True --refine_output=True --M_transform_lr=0.007 --epochs=30 --refine_lr=0.0011
+```
